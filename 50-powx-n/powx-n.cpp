@@ -12,7 +12,7 @@ if(b&1) {
     res = res * a;
 }
 a = a * a;
-b = b >> 1;
+b /= 2;
  }
 
 return res;
